@@ -1,0 +1,47 @@
+.brandImage{
+	width: 30px;
+	height: 30px;
+}
+
+
+.backImage {
+    background: url(https://source.unsplash.com/kZvmEpyfiJs);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.navPadding{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.style1 {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.style2 {
+    border: 0;
+    height: 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.style3 {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+body{
+	background-color: #e6e6e6;
+	font-family: 'Merriweather', serif;
+}
+
+
+.projectImage{
+	background-color: #cccccc;
+}
