@@ -1,0 +1,13 @@
+body{
+	background-color: #F4F6F6;
+}
+
+.authorText{
+	font-family: 'Bubbler One', sans-serif;
+	font-style: italic;
+}
+
+.quoteText{
+	font-family: 'Pangolin', cursive;
+	font-weight: bold;
+}
