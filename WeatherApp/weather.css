@@ -1,0 +1,29 @@
+#app{
+	background-repeat: no-repeat;
+	min-height: 500px;
+	max-height: 700px;
+	background-size: cover;
+}
+
+#location{
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #660033;
+	font-size: 60px;
+}
+
+#weather{
+	font-family: 'Anton', sans-serif;
+	color: #002966;
+	font-size: 50px;
+}
+
+#desc{
+	font-family: 'Source Code Pro', monospace;
+	color:  #ff6600
+	font-size:40px;
+
+}
+
+.buttonWidth{
+	width: 100px !important;
+}
