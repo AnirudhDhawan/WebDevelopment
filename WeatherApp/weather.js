@@ -18,14 +18,14 @@ $(document).ready(function(){
 			locName = data.name;
 			weatherDetail = data.weather[0].description;
 			getWeatherF();
-			if (des == "Clouds") {
-				document.getElementById("app").style.backgroundImage = "url('https://guardian.ng/wp-content/uploads/2016/09/Nature___Other_Cloudy_weather_on_the_road_092911_.jpg')";
+			if (des === "Clouds") {
+				$("#app").css("backgroundImage","url('https://guardian.ng/wp-content/uploads/2016/09/Nature___Other_Cloudy_weather_on_the_road_092911_.jpg')");
 			}
-			else if (des == "Clear"){
-				document.getElementById("app").style.backgroundImage = "url('https://www.proceilingtiles.com/images/D/ST-17924327-f.jpg')";
+			else if (des === "Clear"){
+				$("#app").css("backgroundImage","url('https://www.proceilingtiles.com/images/D/ST-17924327-f.jpg')");
 			}
-			else if (des == "Rain"){
-				document.getElementById("app").style.backgroundImage = "url('http://whatsupnewp.com/wp-content/uploads/2015/10/16292-rain-window.jpg')";
+			else if (des === "Rain"){
+				$("#app").css("backgroundImage","url('http://whatsupnewp.com/wp-content/uploads/2015/10/16292-rain-window.jpg')");
 			}
 		});
    	});
