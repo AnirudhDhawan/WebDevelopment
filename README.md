@@ -9,3 +9,5 @@ Project Details:
 2) Random Quote: https://www.freecodecamp.com/challenges/build-a-random-quote-machine
 
 3) Weather Application: https://www.freecodecamp.com/challenges/show-the-local-weather
+
+4) Wikipedia Viewer: https://www.freecodecamp.com/challenges/build-a-wikipedia-viewer
